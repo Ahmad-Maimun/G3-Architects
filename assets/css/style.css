@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Common Css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+}
+.display-flex {
+    display: flex;
+}
+ol,
+ul {
+    list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+}
+::selection {
+    background-color: #FF900E;
+    color: #fff;
+}
+.section-margin-top {
+    margin-top: 130px;
+}
+.section-title h2 {
+    font-size: 45px;
+    font-weight: 600;
+    color: #131313;
+    margin-bottom: 24px;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* Header Css */
+.header-section .container {
+    display: flex;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+.header-section {
+    margin: 50px 0 115px;
+    width: 100%;
+    position: absolute;
+}
+.header-section .main-logo span {
+    color: rgb(19, 19, 19);
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 53px;
+    cursor: pointer;
+}
+.header-section .menu-list {
+    margin-left: auto;
+}
+.header-section .menu-list ul {
+    display: flex;
+}
+.header-section .menu-list ul li a {
+    margin-left: 70px;
+    color: rgb(114, 114, 114);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+}
+/* Heading Section Css */
+.heading1 h1 {
+    color: rgb(0, 0, 0);
+    font-family: Work Sans;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 75px;
+    margin-bottom: 10px;
+}
+.heading1 {
+    text-align: center;
+}
+.first-content {
+    background-color: rgba(255, 143, 14, 0.10);
+    background-position: center;
+    background-size: cover;
+    padding-top: 205px;
+}
+.heading1 p {
+    color: rgb(0, 0, 0);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 0 200px;
+    margin-bottom: 32px;
+}
+.heading1 a {
+    /* display: inline-block; */
+    line-height: 64px;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 18px 20px 19px 20px;
+    margin-bottom: 30px;
+    background-color: #FF900E;
+    border-radius: 8px;
+    color: #000;
+}
+.heading1 .team-image-1 img {
+    margin-top: 50px;
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 45px;
+    vertical-align: middle;
+}
+.heading1 .team-image-1 {
+    align-items: center;
+}
+/* Quick List */
+.quick-list .container {
+    margin-top: 80px;
+    align-items: center;
+}
+.quick-list .images-area {
+    width: 55%;
+    flex-wrap: wrap;
+    padding-left: 61px;
+    justify-content: space-between;
+}
+.quick-list .images-area img {
+    width: calc(50% - (24px / 2));
+    object-fit: cover;
+    margin-bottom: 24px;
+    vertical-align: middle;
+}
+.quick-list .feature-info {
+    width: 45%;
+    margin-left: 73px;
+    padding-right: 111px;
+}
+.quick-list .heading2 .graytow {
+    color: #727272;
+    font-size: 45px;
+    font-weight: 700;
+}
+.quick-list .heading2 .grayone {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+.quick-list .heading2 .theme {
+    color: #FF900E;
+    font-size: 45px;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 24px;
+
+}
+.quick-list .feature-info p {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #727272;
+    margin-bottom: 32px;
+}
+.quick-list .feature-info a {
+    display: inline-block;
+    padding: 20px 24px;
+    background-color: #FF900E;
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 8px;
+}
+/* Features Css */
+.features {
+
+}
+.features .container {
+    margin-bottom: 200px;
+    align-items: center;
+}
+.features .features-content {
+    width: 50%;
+    padding-right: 125px;
+}
+.features .features-content h2 {
+    padding-left: 21px;
+    border-left: 5px solid #FF900E;
+}
+.features .features-content > p {
+    margin: 24px 0 30px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #727272;
+}
+.features .features-content .features-category {
+    background-color: #fff;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 30px 42px 30px 30px;
+    margin-bottom: 20px;
+}
+.features .features-content .features-category h4 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.features .features-content .features-category p {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
+.features .image {
+    width: 50%;
+    vertical-align: middle;
+    position: relative;
+}
+.features .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.image .year {
+    text-align: center;
+    padding: 40px 42px 40px;
+    background-color: #FF900E;
+    position: absolute;
+    left: -92px;
+    bottom: -77px;
+    border-radius: 8px;
+}
+.image .year .number{
+    font-size: 45px;
+    font-weight: 600;
+    color: #fff;
+}
+.image .year .experience {
+    font-size: 20px;
+    color: #fff;
+}
+/* Some Facts */
+.some-facts .section-title p {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    width: 542px;
+    margin-bottom: 100px;
+}
+/* Icons */
+.icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    margin-bottom: 180px;
+}
+.icons .icon {
+    width: 241.83px;
+    height: 241.83px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    align-items: center;
+}
+.icons .icon img {
+    width: auto;
+    height: auto;
+}
+.icons .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.icons .fact-item .no {
+    font-size: 45px;
+    font-weight: 600;
+    color: #424242;
+}
+.icons .fact-item p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #727272;
+}
+/* Sponsors Css */
+.sponsors .sponsor-title {
+    /* display: flex; */
+    text-align: center;
+}
+.sponsors .sponsor-title h2 {
+    font-size: 45px;
+    font-weight: 600;
+    color: #131313;
+    margin-bottom: 24px;
+}
+.sponsors .sponsor-title p {
+    display: inline-block;
+    width: 542px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #727272;
+    margin-bottom: 50px;
+}
+.sponsors .sponsors-logo {
+    display: flex;
+    justify-content: space-between;
+}
+.sponsors .sponsors-logo img {
+    width: calc(100% / 5) - (600px / 5);
+    filter: grayscale(100%);
+    margin-bottom: 130px;
+}
+.sponsors footer {
+    background-color: #FFF4E7;
+}
+.sponsors footer p {
+    padding: 29px 0 38px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
